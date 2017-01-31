@@ -1,0 +1,821 @@
+/*Global-CSS*/
+
+body
+{
+	color: #6c6f73;
+	font-family: "Work sans", Arial, sans-sarif;
+	font-size: 15px;
+	font-weight: 300;
+}
+
+.all-sections
+{
+	padding: 35px 0px;
+}
+
+.white-button
+{
+	background-color: #fff;
+	border-color: #fff;
+}
+
+.blue-button, .section-five
+{
+	background-color: #2595ff;
+}
+
+.blue-button
+{
+	border-color: #2595ff;
+}
+
+.white-button, .blue-button
+{
+	border-radius: 5px;
+}
+
+.r-o-d-button,
+.blue-button
+{
+	font-size: 18px;
+	font-weight: 400;
+}
+
+h1, h3, h5
+{
+	color: #2d3238;
+}
+
+.top-bar li a,
+.blue-button,
+.section-one-texts h1,
+.section-one-texts p,
+.section-three-texts-part h6,
+.section-three-texts-part h3,
+.section-three-texts-part p,
+.section-four h6,
+.section-four h3,
+.section-four p,
+.section-eight h6,
+.section-eight p a,
+.section-eight ul li
+{
+	color: #fff;
+}
+
+.dull-texts
+{
+	opacity: 0.7;
+	font-size: 19px;
+}
+
+.white-button:hover,
+.blue-button:hover,
+.top-bar li a:hover,
+.r-o-d-button:hover
+{
+	transition: 0.2s;
+}
+
+.blue-button:hover
+{
+	background-color: #007cf1;
+	border-color: #007cf1;
+}
+
+.top-bar li a, h6
+{
+	text-transform: uppercase;
+}
+
+h6
+{
+	color: #bec8ce;
+}
+
+h6,
+.section-three-texts-part h6,
+.section-four h6
+{
+	font-size: 13px;
+}
+
+h3
+{
+	font-size: 28px;
+}
+
+.section-three, .section-eight
+{
+	background: #262F36 no-repeat;
+}
+
+.section-six h3,
+.section-six h6,
+.section-six p,
+.section-seven h3,
+.section-seven h6,
+.section-seven p
+{
+	text-align: center;
+}
+
+.top-bar,
+.section-seven ul
+{
+	list-style-type: none;
+}
+
+/*Section One*/
+
+.section-one
+{
+	background: url(../images/background-01.png) no-repeat, 
+				url(../images/background-02.png) no-repeat;
+	background-size: cover, 100%;
+	padding-bottom: 272px;
+}
+
+.logo
+{
+	color: #28669F;
+	font-size: 19px;
+	font-weight: bold;
+	padding: 0px 12px;
+	line-height: 48px;
+}
+
+.logo:hover
+{
+	cursor: pointer;
+}
+
+.top-bar-dropdown button
+{
+	display: none;
+}
+
+.top-bar
+{
+	padding-top: 20px;
+}
+
+.top-bar li
+{
+	display: inline;
+}
+
+.top-bar li a
+{
+	text-decoration: none;
+	padding: 0px 15px;
+	font-weight: 500;
+}
+
+.top-bar li a:hover,
+{
+	color: #e6e6e6;
+}
+
+.section-one-texts
+{
+	padding: 100px 0px 0px 15px;
+}
+
+.section-one h1
+{
+	font-size: 42px;
+	letter-spacing: 1px;
+}
+
+.section-one-texts p
+{
+	font-size: 21px;
+	padding-right: 66px;
+	padding-bottom: 25px;
+}
+
+.section-one-texts button
+{
+	padding: 10px 48px;
+}
+
+/*Section Two*/
+
+.section-two-left-part
+{
+	background: url(../images/image-01.png) no-repeat;
+	padding-bottom: 684px;
+}
+
+.section-two-top-texts
+{
+	padding-right: 55px;
+	padding-top: 165px;
+}
+
+.section-two-bottom-texts
+{
+	margin-left: -15px;
+}
+
+/*Section Three*/
+
+.section-three
+{
+	padding-top: 40px;
+	padding-bottom: 60px;
+}
+
+.section-three-texts-part
+{
+	padding-top: 100px;
+}
+
+.section-three-texts-part h3,
+.section-three-texts-part p
+{
+	padding-right: 57px;
+}
+
+.section-three-texts-part h3,
+.section-three-texts-part p,
+.section-three-texts-part h6,
+.r-o-d-button
+{
+	margin-left: 60px;
+}
+
+.section-three-texts-part p
+{
+	padding-bottom: 20px;
+}
+
+.r-o-d-button
+{
+	color: #333;
+	padding: 10px 50px;
+}
+
+.r-o-d-button:hover
+{
+	background: #e6e6e6;
+	border-color: #e6e6e6;
+}
+
+.section-three-code-part
+{
+	border: 1px solid #495158;
+	border-right: none;
+	padding: 50px;
+}
+
+.section-three-code-part p,
+.bracket,
+.users,
+.user-info
+{
+	color: #6EA4CF;
+}
+
+.code-first-line
+{
+	color: #8496A5;
+}
+
+.bracket
+{
+	padding-left: 10px;
+}
+
+.users
+{
+	padding-left: 20px;
+}
+
+.user-info
+{
+	padding-left: 30px;
+}
+
+.section-three-code-part p
+{
+	line-height: 0px;
+	padding-right: 0px;
+	font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+/*Section Four*/
+
+.section-four
+{
+	background: url(../images/background-03.png) no-repeat;
+	background-position: 0px -175px;
+}
+
+.section-four-texts
+{
+	padding-top: 170px;
+	padding-bottom: 197px;
+}
+
+.section-four-texts p
+{
+	padding-top: 18px;
+	font-size: 15px;
+}
+
+/*Section Five*/
+
+.section-five,
+.section-six-images,
+{
+	padding: 60px 0px;
+}
+
+.section-five-images
+{
+	max-height: 43px;
+	width: auto;
+}
+
+/*Section Six*/
+
+.section-six h3
+{
+	padding-right: 26px;
+}
+
+
+.section-six-images img
+{
+	margin: 0 auto;
+}
+
+.section-six p
+{
+	padding: 10px 28px 0px 0px;
+}
+
+/*Section Seven*/
+
+.section-seven
+{
+	background: #F4F5F6 no-repeat;
+}
+
+.section-seven img
+{
+	height: 57px;
+	margin: 15px auto 0px;
+}
+
+.section-seven h3
+{
+	padding-bottom: 60px;
+}
+
+.section-seven p
+{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.section-seven li
+{
+	margin-left: -40px;
+	padding: 20px 0px;
+	border-top: 1px solid #bec8ce;
+}
+
+li.s-a-p-a
+{
+	padding-top: 30px;
+}
+
+.section-seven button
+{
+	padding: 10px 30px;
+	text-align: center;
+}
+
+/*Section Eight*/
+
+.section-eight p
+{
+	padding-right: 14px;
+}
+
+.section-eight ul
+{
+	list-style-type: none;
+	margin-left: -40px;
+}
+
+.section-eight ul li
+{
+	padding-bottom: 1px;
+	font-size: 15px;
+}
+
+
+
+/*Media Query for handsets*/
+
+@media screen and (max-width: 320px)
+{
+	.section-one
+	{
+		background-size: cover;
+	}
+	
+	.top-bar
+	{
+		display: none;
+		position: absolute;
+		top: 50%;
+		left: 45%;
+	}
+
+	.top-bar li 
+	{
+		padding-left: 30px;
+	}
+
+	.top-bar li a
+	{
+		box-shadow: 1px 2px 3px #eee;
+	}
+
+	.top-bar-dropdown button
+	{
+		background: #fff;
+		display: inline-block;
+		float: right;
+		position: relative;
+		right: 5%;
+		padding: 10px;
+		font-weight: bold;
+		border-radius: 5px;
+		color: #28669F;
+	}
+
+	.top-bar-dropdown:active .top-bar
+	{
+		display: inline-block;
+	}
+
+	.section-one-texts
+	{
+		padding: 30px 0px 0px 0px;
+		text-align: center;
+	}
+
+	.section-one-texts p
+	{
+		padding: 10px 15px 25px;
+	}
+
+	.section-two-left-part
+	{
+		display: none;
+	}
+
+	.section-two-top-texts,
+	.section-two-bottom-texts
+	{
+		text-align: center;
+		padding-left: 50px;
+	}
+
+	.section-two-bottom-texts h5
+	{
+		padding: 10px 0px;
+		margin-left: -25px;
+	}
+
+	.section-three-texts-part
+	{
+		padding-top: 0px;
+		text-align: center;
+	}
+
+	.section-three-texts-part h3,
+	.section-three-texts-part p,
+	.section-three-texts-part h6,
+	.r-o-d-button
+	{
+		margin-left: 0px;
+	}
+
+	.section-three-texts-part h3, 
+	.section-three-texts-part p
+	{
+		padding-right: 0px;
+	}
+
+	.section-three-code-part
+	{
+		display: none;
+	}
+
+	.section-four-texts 
+	{
+	    padding: 20px 0px;
+	    text-align: center;
+	}
+
+	.section-five,
+	.section-six img,
+	.section-eight p,
+	.section-eight ul li
+	{
+		display: none;
+	}
+
+	.section-six-images
+	{
+		display: block;
+		width: 100%;
+	}
+}
+
+@media (min-width: 320px) and (max-width: 480px)
+{
+	.section-one
+	{
+		background-size: cover;
+	}
+
+	.top-bar
+	{
+		display: none;
+		position: absolute;
+		top: 75%;
+		left: 16%;
+		width: 100%
+	}
+
+	.top-bar-dropdown button
+	{
+		background: #fff;
+		display: inline-block;
+		float: right;
+		position: relative;
+		right: 5%;
+		padding: 10px;
+		font-weight: bold;
+		border-radius: 5px;
+		color: #28669F;
+	}
+
+	.top-bar-dropdown:active .top-bar
+	{
+		display: inline;
+	}
+
+	.top-bar li 
+	{
+		padding: 3px;
+	}
+
+	.top-bar li a
+	{
+		box-shadow: 1px 2px 3px #eee;
+	}
+
+	.section-one-texts 
+	{
+	    padding: 50px 0px 0px;
+	    text-align: center;
+	}
+
+	.section-one-texts p 
+	{
+		padding-right: 8px;
+	    padding-bottom: 25px;
+	}
+
+	.section-two-left-part
+	{
+		display: none;
+	}
+
+	.section-two-top-texts 
+	{
+	    padding-right: 0px;
+	    padding-top: 0px;
+	    text-align: center;
+	}
+
+	.section-two-bottom-texts
+	{
+		text-align: center;
+	}
+
+	.section-three-texts-part
+	{
+		padding-top: 0px;
+		text-align: center;
+		padding-bottom: 30px;
+	}
+
+	.section-three-texts-part h3,
+	.section-three-texts-part p,
+	.section-three-texts-part h6,
+	.r-o-d-button 
+	{
+	    margin-left: 0px;
+	}
+
+	.section-three-texts-part h3,
+	.section-three-texts-part p 
+	{
+	    padding-right: 0px;
+	}
+
+	.section-three-code-part
+	{
+		border-left: none;
+	}
+
+	.section-four-texts 
+	{
+	    padding-top: 100px;
+	    padding-bottom: 100px;
+	    text-align: center;
+	}
+
+	.section-five,
+	.section-six img,
+	.section-eight p,
+	.section-eight ul li
+	{
+		display: none;
+	}
+
+	.section-six h3 
+	{
+	    padding-right: 0px;
+	}
+
+	.section-six p 
+	{
+	    padding: 20px 0px;
+	}
+
+	.section-seven ul 
+	{
+		text-align: center;
+	}
+
+}
+
+/*Media Query for tablets*/
+
+@media (min-width: 480px) and (max-width: 768px)
+{
+	.section-one
+	{
+		background-size: cover;
+		padding-bottom: 0px;
+	}
+
+	.section-one-texts 
+	{
+	    padding: 100px 0px;
+	    text-align: center;
+	}
+
+	.section-two-left-part
+	{
+		position: relative;
+		left: 22%;
+	}
+
+	.section-two-top-texts 
+	{
+	    padding-right: 0px;
+	    padding-top: 100px;
+	    text-align: center;
+	}
+
+	.section-one-texts p
+	{
+		padding: 0px 30px;
+	}
+
+	.section-two-bottom-texts
+	{
+		text-align: center;
+	}
+
+	.section-two-bottom-texts h5
+	{
+		padding-top: 10px;
+	}
+
+	.section-three-texts-part 
+	{
+	    padding-top: 50px;
+	    text-align: center;
+	    padding-bottom: 50px;
+	}
+
+	.section-three-code-part
+	{
+		border-left: none;
+		padding: 50px 210px;
+	}
+
+	.section-four-texts 
+	{
+	    padding-top: 100px;
+	    padding-bottom: 150px;
+	    text-align: center;
+	}
+
+	.section-five-images 
+	{
+		width: 20%;
+	}
+
+	.section-eight
+	{
+		text-align: center;
+	}
+}
+
+/*Media Query for Notebook*/
+
+@media (min-width: 768px) and (max-width: 1170px)
+{
+	.section-one
+	{
+		background-size: cover;
+	}
+
+	.top-bar
+	{
+		display: inline;
+		margin-left: -66px;
+	}
+
+	.section-two-left-part 
+	{
+		position: relative;
+	    right: 5%;
+	}
+
+	.section-five-images 
+	{
+		width: 17%;
+	}
+
+	.section-six h3
+	{
+		padding-right: 0px;
+	}
+
+	.section-seven p 
+	{
+		padding: 20px 5px;
+	}
+}
+
+/*Media Query for Large Screen*/
+
+@media (min-width: 1400px)
+{
+	body
+	{
+		font-size: 20px;
+	}
+
+	.top-bar
+	{
+		position: absolute;
+		right: -60%;
+	}
+
+	.section-four
+	{
+		background-size: cover;
+		background-position: 0px;
+	}
+
+	.section-six-images
+	{
+		width: 16%;
+	}
+
+	.section-six p 
+	{
+	    padding: 0px;
+	}
+
+	.section-four-texts 
+	{
+	    padding-top: 700px;
+	}
+}
